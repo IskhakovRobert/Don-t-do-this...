@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\BaseData\BaseData\bin\Debug\BaseData.exe.config
+C:\Users\user\source\repos\BaseData\BaseData\bin\Debug\BaseData.exe
+C:\Users\user\source\repos\BaseData\BaseData\bin\Debug\BaseData.pdb
+C:\Users\user\source\repos\BaseData\BaseData\obj\Debug\BaseData.csprojAssemblyReference.cache
+C:\Users\user\source\repos\BaseData\BaseData\obj\Debug\BaseData.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\BaseData\BaseData\obj\Debug\BaseData.exe
+C:\Users\user\source\repos\BaseData\BaseData\obj\Debug\BaseData.pdb
