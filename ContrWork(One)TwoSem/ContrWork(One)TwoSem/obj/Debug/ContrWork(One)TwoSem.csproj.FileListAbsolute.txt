@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\ContrWork(One)TwoSem\ContrWork(One)TwoSem\bin\Debug\ContrWork(One)TwoSem.exe.config
+C:\Users\user\source\repos\ContrWork(One)TwoSem\ContrWork(One)TwoSem\bin\Debug\ContrWork(One)TwoSem.exe
+C:\Users\user\source\repos\ContrWork(One)TwoSem\ContrWork(One)TwoSem\bin\Debug\ContrWork(One)TwoSem.pdb
+C:\Users\user\source\repos\ContrWork(One)TwoSem\ContrWork(One)TwoSem\obj\Debug\ContrWork(One)TwoSem.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ContrWork(One)TwoSem\ContrWork(One)TwoSem\obj\Debug\ContrWork(One)TwoSem.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ContrWork(One)TwoSem\ContrWork(One)TwoSem\obj\Debug\ContrWork(One)TwoSem.exe
+C:\Users\user\source\repos\ContrWork(One)TwoSem\ContrWork(One)TwoSem\obj\Debug\ContrWork(One)TwoSem.pdb
