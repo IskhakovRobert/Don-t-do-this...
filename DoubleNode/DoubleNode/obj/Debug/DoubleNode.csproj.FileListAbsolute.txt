@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\DoubleNode\DoubleNode\obj\Debug\DoubleNode.csprojAssemblyReference.cache
+C:\Users\user\source\repos\DoubleNode\DoubleNode\obj\Debug\DoubleNode.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\DoubleNode\DoubleNode\bin\Debug\DoubleNode.exe.config
+C:\Users\user\source\repos\DoubleNode\DoubleNode\bin\Debug\DoubleNode.exe
+C:\Users\user\source\repos\DoubleNode\DoubleNode\bin\Debug\DoubleNode.pdb
+C:\Users\user\source\repos\DoubleNode\DoubleNode\obj\Debug\DoubleNode.exe
+C:\Users\user\source\repos\DoubleNode\DoubleNode\obj\Debug\DoubleNode.pdb
