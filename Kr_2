@@ -1,0 +1,97 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Kr_2
+{
+    class VersionStack
+    {
+        public Stack<int> stack = new Stack<int>();
+        public List<Stack<int>> listTimeStack = new List<Stack<int>>();
+        public void Push(int x)
+        {
+            stack.Push(x);
+            listTimeStack.Add(stack);
+        }
+        public void Pop()
+        {
+            stack.Pop();
+            listTimeStack.Add(stack);
+        }
+        public void RollBack(int moment)
+        {
+            stack = listTimeStack[moment];
+            listTimeStack.Add(stack); 
+        }
+        public void Forget()
+        {
+            listTimeStack.Clear();
+        }
+    }
+    class Program
+    {
+        static void Task_1()
+        {
+            List<List<int>> listListov = new List<List<int>>();
+            List<int> newList = new List<int>();
+            int N = 5; // превые N элементов
+            int[] arrayAnswer = new int[N];
+            for (int i = 0; i < listListov.Count; i++) //соединяем листы
+            {
+                for (int j = 0; j < listListov[i].Count; j++)
+                {
+                    newList.Add(listListov[i][j]);
+                }
+            }
+            newList.Sort();
+            for (int i = 0; i < N; i++) 
+            {
+                arrayAnswer[i] = newList[i];
+            }
+        }
+        static string Task_3()
+        {
+            int x = 2; int y = 5;
+            int HowMuch = 5;
+            List<int[]> listCord = new List<int[]>();
+            int[] otrezok = new int[4];
+            for (int i = 0; i < HowMuch; i++) //лист точек отрезков
+            {
+                for (int j = 0; j < 4; j++)
+                {
+                    int cord = Convert.ToInt32(Console.ReadLine());
+                    otrezok[i] = cord;
+                }
+                listCord.Add(otrezok);
+            }
+
+            List<int[]> listOtrezkovX = new List<int[]>();
+            List<int[]> listOtrezkovY = new List<int[]>();
+            for (int i = 0; i < listCord.Count; i++) //сортировка отрезков, кто к чему параллелен
+            {
+                if (listCord[i][1] == listCord[i][4])
+                {
+                    listOtrezkovX.Add(listCord[i]);
+                }
+                else listOtrezkovY.Add(listCord[i]);
+            }
+            for (int i = 0; i < listOtrezkovX.Count; i++) // отбор первой попавшейся пары пересекающихся отрезков
+            {
+                for (int j = 0; j < listOtrezkovY.Count; i++)
+                {
+                    if (listOtrezkovX[i][0] <= listOtrezkovY[i][0] && listOtrezkovY[i][0] <= listOtrezkovX[i][3]) 
+                    {
+                        return $"{listOtrezkovX[i]} {listOtrezkovY[j]}";
+                    }
+                }
+            }
+            return "";
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine();
+        }
+    }
+}
